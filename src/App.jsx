@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <Navbar/>
-      <main className='container mx-auto'>
+      <main className='container mx-auto px-4 lg:px-0'>
         <Hero/>
         <Mockup/>
         <Illustractions/>
