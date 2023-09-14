@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <div className='font-open-sans bg-color-pale-blue min-h-screen'>
+  <div className='font-open-sans bg-white min-h-screen'>
     <App />
   </div>,
 )
