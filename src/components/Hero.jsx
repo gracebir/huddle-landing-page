@@ -2,16 +2,15 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className='lg:h-[70vh] h-[50vh]  flex items-center'>
-            <div className='text-center flex flex-col gap-10 lg:gap-12 items-center  mx-auto'>
-                <h1 className='text-color-dark-cyan text-3xl lg:text-5xl leading-10 font-poppins font-bold'>Build The Community Your Fans Will Love</h1>
-                <p className='text-color-dark-cyan text-sm lg:text-base font-semibold lg:max-w-xl lg:px-8'>
+        <div className='lg:h-screen h-[50vh] flex items-center'>
+            <div className='text-center flex flex-col flex-1 gap-10 lg:gap-16 items-center mx-auto'>
+                <h1 className='text-color-dark-cyan text-3xl lg:text-6xl leading-10 font-poppins font-bold'>Build The Community Your Fans Will Love</h1>
+                <p className='text-color-dark-cyan text-sm lg:text-2xl font-medium lg:max-w-3xl lg:px-8'>
                     Huddle re-imagines the way we build communities. You have a voice, but so does
                     your audience. Create connections with your users as you engage in genuine discussion.
                 </p>
-                <button className="bg-color-pink hover:bg-color-light-pink text-color-pale-blue font-bold px-8 lg:px-12 py-3 shadow-lg lg:py-5 rounded-full text-sm"> Get Started For Free</button>
+                <a href='#' className="bg-color-pink hover:bg-color-light-pink text-color-pale-blue font-bold w-[30rem] lg:text-2xl px-8 lg:px-0 py-3 shadow-lg lg:py-7 rounded-full text-sm"> Get Started For Free</a>
             </div>
-
         </div>
     )
 }
