@@ -30,7 +30,7 @@ function Footer() {
             </div>
             <div className='flex space-x-5'>
               {footerSocials.map(({id, Icon})=> (
-                <a className='text-color-pale-blue hover:text-cyan' href="#">
+                <a key={id} className='text-color-pale-blue hover:text-cyan' href="#">
                   <Icon size={30}/>
                 </a>
               ))}
