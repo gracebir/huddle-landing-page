@@ -11,7 +11,8 @@ export default {
         'color-light-pink': 'var(--color-light-pink)',
         'color-red': 'var(--color-light-red)',
         'color-dark-cyan': 'var(--color-very-dark-cyan)',
-        'color-pale-blue': 'var(--color-pale-blue)'
+        'color-pale-blue': 'var(--color-pale-blue)',
+        cyan: "var(--color-cyan)"
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],

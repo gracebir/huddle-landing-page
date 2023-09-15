@@ -1,4 +1,7 @@
-import {growth, flowing, yourUser} from '../assets/index'
+import {growth, flowing, yourUser, phone, mail} from '../assets/index'
+import { FaSquareFacebook } from 'react-icons/fa6'
+import { BsInstagram } from 'react-icons/bs'
+import { FaTwitterSquare } from 'react-icons/fa'
 
 export const data = [
     {
@@ -29,5 +32,30 @@ export const data = [
         can start chatting immediately.`,
         imgUrl: yourUser,
         isReverse: true
+    }
+]
+
+export const footerContact = [{
+    text: "Phone: +1-543-123-4567",
+    icon: phone
+  },
+  {
+    text: "example@huddle.com",
+    icon: mail
+  },
+]
+
+export const footerSocials = [
+    {
+        id: "facebook",
+        Icon: FaSquareFacebook
+    },
+    {
+        id: "instagram",
+        Icon: BsInstagram
+    },
+    {
+        id: "twitter",
+        Icon: FaTwitterSquare
     }
 ]
