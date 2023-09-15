@@ -6,9 +6,9 @@ import Form from './Form'
 function Footer() {
   return (
     <footer className="lg:h-[80vh] min-h-screen grid grid-rows-6">
-      <div className='row-span-2 lg:bg-bfooter-desk bg-center bg-cover bg-bfooter-mob bg-no-repeat lg:bg-contain lg:bg-bottom'>
+      <div className='row-span-1 lg:row-span-2 lg:bg-bfooter-desk bg-bottom bg-contain bg-bfooter-mob bg-no-repeat lg:bg-contain lg:bg-bottom'>
       </div>
-      <div className='bg-color-dark-cyan row-span-4 text-color-pale-blue flex items-center'>
+      <div className='bg-color-dark-cyan lg:row-span-4 row-span-5 text-color-pale-blue flex items-center'>
         <div className='grid lg:grid-cols-2 grid-cols-1 gap-12 container mx-auto px-6 lg:px-0 pb-8 lg:pb-0'>
           {/* info footer side */}
           <div className='flex flex-col gap-6 lg:gap-12 order-2 lg:order-1'>
